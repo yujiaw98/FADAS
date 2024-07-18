@@ -66,7 +66,7 @@ def args_parser():
     parser.add_argument('--plus', type=int, default=1, help='CrAM plus or not')
 
     parser.add_argument('--update_freq', type=int, default=5, help='update the global model every x updates')
-    parser.add_argument('--scale', type=float, default=1, help='half normal distribution variance')
+    parser.add_argument('--scale', type=float, default=1, help='parameter for Dirichlet sampling in the delay simulation')
     parser.add_argument('--delay_type', type=str, help='delay_type of the experiment. Large delay or not.', required=False)
     parser.add_argument('--tauc', type=int, default=1, help='the threshold for delay adaptive learning rate')
     args = parser.parse_args()
