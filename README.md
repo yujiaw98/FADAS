@@ -43,15 +43,15 @@ The default values for various paramters parsed to the experiment are given in `
 
 ## Citation
 
-Please check our paper for technical details and full results.
+Please check our paper for technical details and full results. If you find this repo useful for your research, please consider citing the paper.
 
 ```
 @inproceedings{
-wang2024fadas,
-title={{FADAS}: Towards Federated Adaptive Asynchronous Optimization},
-author={Yujia Wang and Shiqiang Wang and Songtao Lu and Jinghui Chen},
-booktitle={Forty-first International Conference on Machine Learning},
-year={2024},
-url={https://openreview.net/forum?id=j56JAd29uH}
+  wang2024fadas,
+  title={{FADAS}: Towards Federated Adaptive Asynchronous Optimization},
+  author={Yujia Wang and Shiqiang Wang and Songtao Lu and Jinghui Chen},
+  booktitle={Forty-first International Conference on Machine Learning},
+  year={2024},
+  url={https://openreview.net/forum?id=j56JAd29uH}
 }
 ```
